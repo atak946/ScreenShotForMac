@@ -55,6 +55,16 @@ struct AutomationURLTests {
         #expect(parse("ssfm://open?path=~/x.png") == .openFile(URL(fileURLWithPath: home + "/x.png").standardizedFileURL))
     }
 
+    @Test("Backdrop and combine routes")
+    func backdropAndCombine() {
+        #expect(parse("ssfm://backdrop?path=/tmp/a.png") == .backdropFile(URL(fileURLWithPath: "/tmp/a.png")))
+        #expect(parse("ssfm://BACKDROP?PATH=/tmp/x/../a.png") == .backdropFile(URL(fileURLWithPath: "/tmp/a.png")))
+        #expect(parse("ssfm://combine?path=/tmp/a.png&path=/tmp/b.png") == .combineFiles([
+            URL(fileURLWithPath: "/tmp/a.png"), URL(fileURLWithPath: "/tmp/b.png"),
+        ]))
+        #expect(parse("ssfm://combine?path=/tmp/only.png") == .combineFiles([URL(fileURLWithPath: "/tmp/only.png")]))
+    }
+
     @Test(
         "Invalid URLs are rejected",
         arguments: [
@@ -69,6 +79,11 @@ struct AutomationURLTests {
             "ssfm://workflow?name=%20%20",
             "ssfm://open",
             "ssfm://open?path=relative/file.png",
+            "ssfm://backdrop",
+            "ssfm://backdrop?path=relative.png",
+            "ssfm://combine",
+            "ssfm://combine?path=/tmp/a.png&path=relative.png",
+            "ssfm://combine?path=",
         ]
     )
     func invalid(url: String) {

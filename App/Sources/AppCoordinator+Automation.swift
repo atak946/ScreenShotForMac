@@ -30,6 +30,11 @@ extension AppCoordinator {
             runWorkflow(reference)
         case let .openFile(url):
             openFileInEditor(url)
+        case let .backdropFile(url):
+            if let result = loadCapture(from: url) { openBackdrop(result) }
+        case let .combineFiles(urls):
+            let results = urls.compactMap(loadCapture(from:))
+            if results.count == urls.count { showCombine(with: results) }
         case let .command(command):
             perform(command)
         }
@@ -51,17 +56,21 @@ extension AppCoordinator {
     }
 
     func openFileInEditor(_ url: URL) {
+        if let result = loadCapture(from: url) { openEditor(result) }
+    }
+
+    /// Reads an image file as a capture (point size from the file's DPI); shows an error HUD on failure.
+    func loadCapture(from url: URL) -> CaptureResult? {
         guard let image = NSImage(contentsOf: url),
               let cgImage = image.cgImage(forProposedRect: nil, context: nil, hints: nil)
         else {
             hud.showError(AutomationURLError.unreadableImage(url.lastPathComponent))
-            return
+            return nil
         }
         let pointWidth = image.size.width > 0 ? image.size.width : CGFloat(cgImage.width)
         let scale = max(1, CGFloat(cgImage.width) / pointWidth)
         let size = CGSize(width: CGFloat(cgImage.width) / scale, height: CGFloat(cgImage.height) / scale)
-        let result = CaptureResult(image: cgImage, scale: scale, screenRect: CGRect(origin: .zero, size: size), mode: .area)
-        openEditor(result)
+        return CaptureResult(image: cgImage, scale: scale, screenRect: CGRect(origin: .zero, size: size), mode: .area)
     }
 }
 

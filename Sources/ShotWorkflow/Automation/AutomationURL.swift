@@ -18,6 +18,10 @@ public enum AutomationRequest: Sendable, Equatable {
     case record(RecordingFormat)
     case runWorkflow(WorkflowReference)
     case openFile(URL)
+    /// Opens an image file in the Backdrop composer.
+    case backdropFile(URL)
+    /// Opens image files in the Combine window (in the given order).
+    case combineFiles([URL])
     /// Plain app commands (`ocr`, `color`, `qr`, `settings`, `history`, …).
     case command(AppCommand)
 }
@@ -34,6 +38,8 @@ public enum WorkflowReference: Sendable, Equatable {
 /// - `ssfm://record?format=mp4|gif`
 /// - `ssfm://workflow?id=<uuid>` or `ssfm://workflow?name=<name>`
 /// - `ssfm://open?path=<file>`
+/// - `ssfm://backdrop?path=<file>`
+/// - `ssfm://combine?path=<a>&path=<b>…`
 /// - `ssfm://ocr`, `ssfm://color`, `ssfm://qr`, `ssfm://measure`, `ssfm://history`, `ssfm://settings`
 public enum AutomationURL {
     public static let scheme = "ssfm"
@@ -47,6 +53,8 @@ public enum AutomationURL {
         case "record": return recordRequest(query)
         case "workflow": return workflowRequest(query)
         case "open": return openRequest(query)
+        case "backdrop": return fileURL(query["path"]).map(AutomationRequest.backdropFile)
+        case "combine": return combineRequest(url)
         default: return simpleCommand(host).map(AutomationRequest.command)
         }
     }
@@ -105,10 +113,25 @@ public enum AutomationURL {
     }
 
     private static func openRequest(_ query: [String: String]) -> AutomationRequest? {
-        guard let path = query["path"], !path.isEmpty else { return nil }
+        fileURL(query["path"]).map(AutomationRequest.openFile)
+    }
+
+    /// Every `path` item is a file; all must be valid absolute (or `~`) paths.
+    private static func combineRequest(_ url: URL) -> AutomationRequest? {
+        let items = URLComponents(url: url, resolvingAgainstBaseURL: false)?.queryItems ?? []
+        let paths = items.filter { $0.name.lowercased() == "path" }.map(\.value)
+        guard !paths.isEmpty else { return nil }
+        let urls = paths.compactMap(fileURL)
+        guard urls.count == paths.count else { return nil }
+        return .combineFiles(urls)
+    }
+
+    /// Absolute (or `~`-relative) file path → standardized file URL.
+    private static func fileURL(_ path: String?) -> URL? {
+        guard let path, !path.isEmpty else { return nil }
         let expanded = (path as NSString).expandingTildeInPath
         guard expanded.hasPrefix("/") else { return nil }
-        return .openFile(URL(fileURLWithPath: expanded).standardizedFileURL)
+        return URL(fileURLWithPath: expanded).standardizedFileURL
     }
 
     private static func simpleCommand(_ host: String) -> AppCommand? {
