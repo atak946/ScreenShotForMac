@@ -1,0 +1,56 @@
+# SwiftFormat configuration. Run `swiftformat .` to format, `swiftformat --lint .` to check.
+
+--swiftversion 6.0
+--exclude .build,.build-*,DerivedData,DerivedData-*,*.xcodeproj,.swiftpm
+
+# Layout
+--indent 4
+--tabwidth 4
+--maxwidth 140
+--wraparguments before-first
+--wrapparameters before-first
+--wrapcollections before-first
+--closingparen balanced
+--allman false
+--linebreaks lf
+--trimwhitespace always
+
+# Style
+--self remove
+--semicolons never
+# Trailing commas in multi-line collections only (the code base convention; Swift 6.0
+# does not allow them in argument lists). The legacy `--commas inline` meant "never".
+--trailing-commas collections-only
+# Ranges stay unspaced (`0..<count`), as everywhere in the code base.
+--ranges no-space
+--stripunusedargs closure-only
+--importgrouping alpha
+--ifdef no-indent
+--patternlet hoist
+--elseposition same-line
+--guardelse auto
+--typeattributes prev-line
+--funcattributes prev-line
+--storedvarattributes same-line
+--computedvarattributes same-line
+--extensionacl on-declarations
+--header ignore
+--marktypes never
+
+# Rules that fight the existing code or Swift 6 patterns
+--disable redundantReturn
+--disable wrapMultilineStatementBraces
+--disable redundantNilInit
+--disable preferForLoop
+--disable redundantSendable
+--disable redundantMemberwiseInit
+--disable organizeDeclarations
+--disable docComments
+--disable unusedPrivateDeclarations
+# Newer SwiftFormat defaults (0.6x) that would explode the project's one-line bodies
+# (`var id: String { rawValue }`, `guard … else { return nil }`, `if x { y() }`).
+--disable wrapFunctionBodies
+--disable wrapPropertyBodies
+--disable wrapIfStatementBodies
+--disable wrapIfExpressionBodies
+--disable wrapLoopBodies
