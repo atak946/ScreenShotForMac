@@ -10,7 +10,7 @@ struct AboutSettingsTab: View {
 
     var body: some View {
         VStack(spacing: DS.Space.m) {
-            Image(nsImage: NSApp.applicationIconImage)
+            Image(nsImage: AppIcon.image)
                 .resizable()
                 .interpolation(.high)
                 .frame(width: 104, height: 104)

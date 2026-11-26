@@ -22,19 +22,24 @@ public enum WindowActivation {
         NSApp.activate()
         window.makeKeyAndOrderFront(nil)
         window.orderFrontRegardless()
-        // Activation of a freshly-regular app can land one runloop later.
-        DispatchQueue.main.async {
-            NSApp.activate()
-            window.makeKeyAndOrderFront(nil)
+        // Activation of a freshly-regular app can land one runloop later, and a capture
+        // overlay may have just handed focus back to the previous app (asynchronously).
+        // Re-assert a few times so the window reliably ends up frontmost.
+        for delay in reassertDelays {
+            DispatchQueue.main.asyncAfter(deadline: .now() + delay) {
+                guard window.isVisible else { return }
+                NSApp.activate()
+                window.makeKeyAndOrderFront(nil)
+            }
         }
     }
+
+    private static let reassertDelays: [TimeInterval] = [0, 0.15, 0.4]
 
     /// An LSUIElement app switched to `.regular` at runtime can get a generic Dock tile;
     /// set the bundle icon explicitly so the Dock shows the real app icon.
     private static func applyDockIcon() {
-        let icon = NSImage(named: NSImage.applicationIconName)
-            ?? NSWorkspace.shared.icon(forFile: Bundle.main.bundlePath)
-        NSApp.applicationIconImage = icon
+        NSApp.applicationIconImage = AppIcon.image
         NSApp.dockTile.display()
     }
 
@@ -62,5 +67,18 @@ public enum WindowActivation {
             guard tracked.isEmpty else { return }
             NSApp.setActivationPolicy(.accessory)
         }
+    }
+}
+
+/// The real app icon, read from the bundle (Assets.car / AppIcon.icns).
+/// `NSImage(named: NSImage.applicationIconName)` and LaunchServices can return a stale generic icon.
+@MainActor
+public enum AppIcon {
+    public static var image: NSImage {
+        if let url = Bundle.main.url(forResource: "AppIcon", withExtension: "icns"),
+           let icon = NSImage(contentsOf: url) {
+            return icon
+        }
+        return NSImage(named: "AppIcon") ?? NSWorkspace.shared.icon(forFile: Bundle.main.bundlePath)
     }
 }
