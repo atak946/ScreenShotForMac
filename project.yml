@@ -1,0 +1,91 @@
+name: ScreenShotForMac
+options:
+  bundleIdPrefix: app.screenshotformac
+  deploymentTarget:
+    macOS: "14.0"
+  createIntermediateGroups: true
+  developmentLanguage: en
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    MACOSX_DEPLOYMENT_TARGET: "14.0"
+    ENABLE_HARDENED_RUNTIME: YES
+packages:
+  ShotKit:
+    path: .
+  Sparkle:
+    url: https://github.com/sparkle-project/Sparkle
+    from: "2.10.1"
+targets:
+  ScreenShotForMac:
+    type: application
+    platform: macOS
+    configFiles:
+      Debug: Config/Signing.xcconfig
+      Release: Config/Signing.xcconfig
+    sources:
+      - App/Sources
+      - App/Resources
+    info:
+      path: App/Info.plist
+      properties:
+        CFBundleDisplayName: ScreenShotForMac
+        CFBundleShortVersionString: "0.1.0"
+        CFBundleVersion: "1"
+        LSUIElement: true
+        SUFeedURL: https://github.com/atak946/ScreenShotForMac/releases/latest/download/appcast.xml
+        SUPublicEDKey: JLeedRYBJ7E/Jc4EmVpcNLQttt8PyUJ4JT2w1ASfwng=
+        SUEnableAutomaticChecks: true
+        SUScheduledCheckInterval: 86400
+        CFBundleLocalizations: [en, tr]
+        CFBundleAllowMixedLocalizations: true
+        NSMicrophoneUsageDescription: Microphone audio is recorded only when you enable it for screen recordings.
+        NSCameraUsageDescription: The camera is used only when you enable the webcam bubble for screen recordings.
+        LSApplicationCategoryType: public.app-category.productivity
+        NSHumanReadableCopyright: "© 2026 Murat ATAK"
+        CFBundleURLTypes:
+          - CFBundleURLName: app.screenshotformac.url
+            CFBundleURLSchemes: [ssfm]
+    entitlements:
+      path: App/ScreenShotForMac.entitlements
+      properties:
+        com.apple.security.app-sandbox: false
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: app.screenshotformac.ScreenShotForMac
+        GENERATE_INFOPLIST_FILE: NO
+    dependencies:
+      - package: ShotKit
+        product: ShotCore
+      - package: ShotKit
+        product: ShotCapture
+      - package: ShotKit
+        product: ShotEditor
+      - package: ShotKit
+        product: ShotTools
+      - package: ShotKit
+        product: ShotExport
+      - package: ShotKit
+        product: ShotSettings
+      - package: ShotKit
+        product: ShotRecording
+      - package: ShotKit
+        product: ShotScrolling
+      - package: ShotKit
+        product: ShotPin
+      - package: ShotKit
+        product: ShotBackdrop
+      - package: ShotKit
+        product: ShotHistory
+      - package: ShotKit
+        product: ShotMeasure
+      - package: ShotKit
+        product: ShotUpload
+      - package: ShotKit
+        product: ShotWorkflow
+      - package: ShotKit
+        product: ShotVideoEditor
+      - package: ShotKit
+        product: ShotCombine
+      - package: Sparkle
+        product: Sparkle

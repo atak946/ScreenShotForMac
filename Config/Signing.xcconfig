@@ -1,0 +1,5 @@
+// Shared signing settings. Developer-specific values live in Local.xcconfig (gitignored).
+// Copy Local.xcconfig.example to Local.xcconfig and fill in your team ID.
+CODE_SIGN_STYLE = Automatic
+CODE_SIGN_IDENTITY = Apple Development
+#include? "Local.xcconfig"
