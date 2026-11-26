@@ -1,0 +1,476 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "A spooled GIF frame could not be read.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ara belleğe alınan bir GIF karesi okunamadı."
+          }
+        }
+      }
+    },
+    "Accessibility access": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Erişilebilirlik izni"
+          }
+        }
+      }
+    },
+    "Allow…": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "İzin Ver…"
+          }
+        }
+      }
+    },
+    "Audio is not available for GIF recordings": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "GIF kayıtlarında ses kullanılamaz"
+          }
+        }
+      }
+    },
+    "Camera access is denied. Allow it in System Settings > Privacy & Security > Camera.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kamera erişimi reddedildi. Sistem Ayarları > Gizlilik ve Güvenlik > Kamera bölümünden izin verin."
+          }
+        }
+      }
+    },
+    "Camera: Off": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kamera: Kapalı"
+          }
+        }
+      }
+    },
+    "Camera: On": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kamera: Açık"
+          }
+        }
+      }
+    },
+    "Cannot create GIF file.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "GIF dosyası oluşturulamıyor."
+          }
+        }
+      }
+    },
+    "Cannot create GIF frame folder: %@": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "GIF kare klasörü oluşturulamıyor: %@"
+          }
+        }
+      }
+    },
+    "Cannot create movie file: %@": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Film dosyası oluşturulamıyor: %@"
+          }
+        }
+      }
+    },
+    "Circle": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Daire"
+          }
+        }
+      }
+    },
+    "Discard Recording": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaydı Sil"
+          }
+        }
+      }
+    },
+    "Drag to move · Right-click for size and shape": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Taşımak için sürükleyin · Boyut ve şekil için sağ tıklayın"
+          }
+        }
+      }
+    },
+    "Drag to record an area · Click a window · F or Enter for full screen · Esc to cancel": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alan kaydetmek için sürükleyin · Pencere için tıklayın · Tam ekran için F veya Enter · Vazgeçmek için Esc"
+          }
+        }
+      }
+    },
+    "GIF encoding failed.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "GIF kodlanamadı."
+          }
+        }
+      }
+    },
+    "Highlight Clicks: Off": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tıklamaları Vurgula: Kapalı"
+          }
+        }
+      }
+    },
+    "Highlight Clicks: On": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tıklamaları Vurgula: Açık"
+          }
+        }
+      }
+    },
+    "Keystroke display needs Accessibility access (System Settings > Privacy & Security > Accessibility).": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tuş gösterimi Erişilebilirlik izni gerektirir (Sistem Ayarları > Gizlilik ve Güvenlik > Erişilebilirlik)."
+          }
+        }
+      }
+    },
+    "Keystrokes": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tuş Vuruşları"
+          }
+        }
+      }
+    },
+    "Large": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Büyük"
+          }
+        }
+      }
+    },
+    "Medium": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Orta"
+          }
+        }
+      }
+    },
+    "Microphone: Off": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mikrofon: Kapalı"
+          }
+        }
+      }
+    },
+    "Microphone: On": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mikrofon: Açık"
+          }
+        }
+      }
+    },
+    "Movie writing failed: %@": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Film yazılamadı: %@"
+          }
+        }
+      }
+    },
+    "No frames were recorded.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hiç kare kaydedilmedi."
+          }
+        }
+      }
+    },
+    "No video frames were recorded.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hiç video karesi kaydedilmedi."
+          }
+        }
+      }
+    },
+    "Only shortcuts (hide typed text)": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yalnızca kısayollar (yazılan metni gizle)"
+          }
+        }
+      }
+    },
+    "Open System Settings": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sistem Ayarlarını Aç"
+          }
+        }
+      }
+    },
+    "Pause": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Duraklat"
+          }
+        }
+      }
+    },
+    "Resume": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sürdür"
+          }
+        }
+      }
+    },
+    "Rounded Rectangle": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yuvarlatılmış Dikdörtgen"
+          }
+        }
+      }
+    },
+    "Shape": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Şekil"
+          }
+        }
+      }
+    },
+    "Show Keystrokes: Off": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tuşları Göster: Kapalı"
+          }
+        }
+      }
+    },
+    "Show Keystrokes: On": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tuşları Göster: Açık"
+          }
+        }
+      }
+    },
+    "Show keystrokes": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tuş vuruşlarını göster"
+          }
+        }
+      }
+    },
+    "Show webcam": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Web kamerasını göster"
+          }
+        }
+      }
+    },
+    "Size": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Boyut"
+          }
+        }
+      }
+    },
+    "Small": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Küçük"
+          }
+        }
+      }
+    },
+    "Stop Recording": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaydı Durdur"
+          }
+        }
+      }
+    },
+    "Stop and Save": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Durdur ve Kaydet"
+          }
+        }
+      }
+    },
+    "System Audio: Off": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sistem Sesi: Kapalı"
+          }
+        }
+      }
+    },
+    "System Audio: On": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sistem Sesi: Açık"
+          }
+        }
+      }
+    },
+    "The movie writer rejected the video settings.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Film yazıcı video ayarlarını kabul etmedi."
+          }
+        }
+      }
+    },
+    "The selected window is no longer available.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Seçilen pencere artık kullanılamıyor."
+          }
+        }
+      }
+    },
+    "The webcam bubble is recorded with the screen. Drag it to move; right-click it for size and shape.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Web kamerası balonu ekranla birlikte kaydedilir. Taşımak için sürükleyin; boyut ve şekil için sağ tıklayın."
+          }
+        }
+      }
+    },
+    "Webcam": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Web Kamerası"
+          }
+        }
+      }
+    },
+    "unknown error": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "bilinmeyen hata"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
