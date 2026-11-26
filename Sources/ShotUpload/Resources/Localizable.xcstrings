@@ -1,0 +1,636 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "%@ is required.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ zorunludur."
+          }
+        }
+      }
+    },
+    "%@ must be a valid http(s) URL.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ geçerli bir http(s) URL'si olmalıdır."
+          }
+        }
+      }
+    },
+    "Access Key ID": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Erişim Anahtarı Kimliği"
+          }
+        }
+      }
+    },
+    "Add Header": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Başlık Ekle"
+          }
+        }
+      }
+    },
+    "After Upload": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yüklemeden Sonra"
+          }
+        }
+      }
+    },
+    "Binary (raw file)": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "İkili (ham dosya)"
+          }
+        }
+      }
+    },
+    "Body": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gövde"
+          }
+        }
+      }
+    },
+    "Bucket": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bucket"
+          }
+        }
+      }
+    },
+    "Bucket name must not contain slashes or spaces.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bucket adı eğik çizgi veya boşluk içeremez."
+          }
+        }
+      }
+    },
+    "Choose where captures are uploaded when you use Upload.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yükle'yi kullandığınızda yakalamaların nereye yükleneceğini seçin."
+          }
+        }
+      }
+    },
+    "Cloudflare R2 uses the region \"auto\". MinIO usually needs path-style URLs.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cloudflare R2 \"auto\" bölgesini kullanır. MinIO genellikle yol stili URL'ler gerektirir."
+          }
+        }
+      }
+    },
+    "Connection": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bağlantı"
+          }
+        }
+      }
+    },
+    "Copy Link": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bağlantıyı Kopyala"
+          }
+        }
+      }
+    },
+    "Copy link to clipboard": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bağlantıyı panoya kopyala"
+          }
+        }
+      }
+    },
+    "Credentials": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kimlik Bilgileri"
+          }
+        }
+      }
+    },
+    "Custom HTTP": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Özel HTTP"
+          }
+        }
+      }
+    },
+    "Destination": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hedef"
+          }
+        }
+      }
+    },
+    "Endpoint URL": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uç Nokta URL'si"
+          }
+        }
+      }
+    },
+    "Endpoint URL must be a valid http(s) URL.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uç nokta URL'si geçerli bir http(s) URL'si olmalıdır."
+          }
+        }
+      }
+    },
+    "File field name": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dosya alanı adı"
+          }
+        }
+      }
+    },
+    "Header \"%@\" is not valid.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\"%@\" başlığı geçerli değil."
+          }
+        }
+      }
+    },
+    "Headers": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Başlıklar"
+          }
+        }
+      }
+    },
+    "JSON key path": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "JSON anahtar yolu"
+          }
+        }
+      }
+    },
+    "Keep original file name": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Orijinal dosya adını koru"
+          }
+        }
+      }
+    },
+    "Link from": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bağlantı kaynağı"
+          }
+        }
+      }
+    },
+    "Links": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bağlantılar"
+          }
+        }
+      }
+    },
+    "Location header": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Location başlığı"
+          }
+        }
+      }
+    },
+    "Make uploads public (public-read ACL)": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yüklemeleri herkese açık yap (public-read ACL)"
+          }
+        }
+      }
+    },
+    "Method": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yöntem"
+          }
+        }
+      }
+    },
+    "Multipart form data": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Çok parçalı form verisi"
+          }
+        }
+      }
+    },
+    "Name": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ad"
+          }
+        }
+      }
+    },
+    "None": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yok"
+          }
+        }
+      }
+    },
+    "Open link in browser": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bağlantıyı tarayıcıda aç"
+          }
+        }
+      }
+    },
+    "Otherwise a random 10-character name is used.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aksi halde rastgele 10 karakterlik bir ad kullanılır."
+          }
+        }
+      }
+    },
+    "Path prefix": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yol öneki"
+          }
+        }
+      }
+    },
+    "Public URL": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Herkese Açık URL"
+          }
+        }
+      }
+    },
+    "Public URL must be a valid http(s) URL.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Herkese açık URL geçerli bir http(s) URL'si olmalıdır."
+          }
+        }
+      }
+    },
+    "Region": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bölge"
+          }
+        }
+      }
+    },
+    "Regular expression": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Düzenli ifade"
+          }
+        }
+      }
+    },
+    "Remove header": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Başlığı kaldır"
+          }
+        }
+      }
+    },
+    "Request": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "İstek"
+          }
+        }
+      }
+    },
+    "Request URL": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "İstek URL'si"
+          }
+        }
+      }
+    },
+    "Required": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zorunlu"
+          }
+        }
+      }
+    },
+    "Response": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yanıt"
+          }
+        }
+      }
+    },
+    "S3-compatible": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "S3 uyumlu"
+          }
+        }
+      }
+    },
+    "Secret": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gizli"
+          }
+        }
+      }
+    },
+    "Secret Access Key": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gizli Erişim Anahtarı"
+          }
+        }
+      }
+    },
+    "Send captures to any HTTP endpoint, like a ShareX custom uploader.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yakalamaları, ShareX özel yükleyicisi gibi herhangi bir HTTP uç noktasına gönderin."
+          }
+        }
+      }
+    },
+    "Storage": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Depolama"
+          }
+        }
+      }
+    },
+    "Test Upload": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yüklemeyi Test Et"
+          }
+        }
+      }
+    },
+    "The regular expression is not valid.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Düzenli ifade geçerli değil."
+          }
+        }
+      }
+    },
+    "The response did not contain a link.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yanıt bir bağlantı içermiyor."
+          }
+        }
+      }
+    },
+    "The response link is not a valid URL.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yanıttaki bağlantı geçerli bir URL değil."
+          }
+        }
+      }
+    },
+    "The secret access key is stored in your Keychain.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gizli erişim anahtarı Anahtar Zinciri'nizde saklanır."
+          }
+        }
+      }
+    },
+    "The server returned an invalid response.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sunucu geçersiz bir yanıt döndürdü."
+          }
+        }
+      }
+    },
+    "Upload": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yükleme"
+          }
+        }
+      }
+    },
+    "Uploads a tiny 1×1 image to check your settings.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ayarlarınızı denetlemek için 1×1 boyutunda küçük bir görüntü yükler."
+          }
+        }
+      }
+    },
+    "Use dots for nested keys and numbers for array items, e.g. files.0.url. A regular expression returns its first capture group.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "İç içe anahtarlar için nokta, dizi öğeleri için sayı kullanın; örn. files.0.url. Düzenli ifade ilk yakalama grubunu döndürür."
+          }
+        }
+      }
+    },
+    "Use path-style URLs": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yol stili URL'ler kullan"
+          }
+        }
+      }
+    },
+    "Value": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Değer"
+          }
+        }
+      }
+    },
+    "Values marked Secret are stored in your Keychain.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gizli olarak işaretlenen değerler Anahtar Zinciri'nizde saklanır."
+          }
+        }
+      }
+    },
+    "Works with AWS S3, Cloudflare R2, MinIO, Backblaze B2 and other S3-compatible storage.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AWS S3, Cloudflare R2, MinIO, Backblaze B2 ve diğer S3 uyumlu depolama hizmetleriyle çalışır."
+          }
+        }
+      }
+    },
+    "{date} becomes year/month/day. Set a public URL to share links through a custom domain or CDN; leave it empty to use the bucket URL.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "{date} yıl/ay/gün olur. Bağlantıları özel bir alan adı veya CDN üzerinden paylaşmak için herkese açık bir URL belirleyin; bucket URL'sini kullanmak için boş bırakın."
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
