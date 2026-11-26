@@ -7,6 +7,15 @@ project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.4] - 2026-11-26
+
+### Added
+- Quick actions in the area-capture toolbar: Copy to Clipboard (⌘C) and Save to File (⌘S) skip the preview and act immediately.
+
+### Fixed
+- The About pane and the Dock showed a generic icon; the icon is now loaded directly from the app bundle.
+- The editor (and other windows) could open behind the previously active app after a capture; they now reliably come to the front.
+
 ## [0.1.3] - 2026-11-26
 
 ### Fixed
@@ -87,7 +96,8 @@ project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 - Automatic updates via Sparkle, published through GitHub Releases.
 - English and Turkish localization.
 
-[Unreleased]: https://github.com/atak946/ScreenShotForMac/compare/v0.1.3...HEAD
+[Unreleased]: https://github.com/atak946/ScreenShotForMac/compare/v0.1.4...HEAD
+[0.1.4]: https://github.com/atak946/ScreenShotForMac/compare/v0.1.3...v0.1.4
 [0.1.3]: https://github.com/atak946/ScreenShotForMac/compare/v0.1.2...v0.1.3
 [0.1.2]: https://github.com/atak946/ScreenShotForMac/compare/v0.1.1...v0.1.2
 [0.1.1]: https://github.com/atak946/ScreenShotForMac/compare/v0.1.0...v0.1.1
