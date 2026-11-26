@@ -61,7 +61,9 @@ if [[ -z "${NOTES_FILE}" ]]; then
 fi
 
 # 1. Appcast: generate_appcast signs the DMG with the Keychain EdDSA key and writes appcast.xml.
-#    Older DMGs stay in build/appcast so the feed keeps the full history.
+#    Each GitHub Release only hosts its own DMG, so the feed lists just the current version
+#    (generate_appcast would otherwise rewrite older entries to this release's download prefix).
+run rm -rf "${APPCAST_DIR}"
 run mkdir -p "${APPCAST_DIR}"
 run cp "${DMG}" "${APPCAST_DIR}/"
 run "${SPARKLE_BIN}/generate_appcast" \

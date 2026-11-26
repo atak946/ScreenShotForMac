@@ -119,4 +119,4 @@ and verifies every update with the EdDSA public key `SUPublicEDKey` (both in `pr
   2. `scripts/release.sh` → notarized `build/release/ScreenShotForMac-<version>.dmg`.
   3. `scripts/publish-release.sh` → signs the DMG, generates `appcast.xml`, tags `v<version>`,
      and creates the GitHub Release with both assets.
-- Keep previous DMGs in `build/appcast/` so the appcast retains history (optional).
+- The appcast lists only the latest version (each release hosts only its own DMG).
