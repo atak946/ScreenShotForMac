@@ -1,0 +1,516 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "Alignment": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hizalama"
+          }
+        }
+      }
+    },
+    "Angle": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Açı"
+          }
+        }
+      }
+    },
+    "App Store (2880×1800)": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "App Store (2880×1800)"
+          }
+        }
+      }
+    },
+    "Aspect": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "En Boy Oranı"
+          }
+        }
+      }
+    },
+    "Aurora": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kutup Işıkları"
+          }
+        }
+      }
+    },
+    "Auto": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Otomatik"
+          }
+        }
+      }
+    },
+    "Backdrop": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Arka Plan"
+          }
+        }
+      }
+    },
+    "Backdrop preview": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Arka plan önizlemesi"
+          }
+        }
+      }
+    },
+    "Background": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Arka Plan"
+          }
+        }
+      }
+    },
+    "Blur": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bulanıklık"
+          }
+        }
+      }
+    },
+    "Bottom": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alt"
+          }
+        }
+      }
+    },
+    "Cancel": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vazgeç"
+          }
+        }
+      }
+    },
+    "Canvas": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tuval"
+          }
+        }
+      }
+    },
+    "Center": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Orta"
+          }
+        }
+      }
+    },
+    "Color": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Renk"
+          }
+        }
+      }
+    },
+    "Copy": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kopyala"
+          }
+        }
+      }
+    },
+    "Copy to Clipboard (⌘C)": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Panoya Kopyala (⌘C)"
+          }
+        }
+      }
+    },
+    "Corner Radius": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Köşe Yarıçapı"
+          }
+        }
+      }
+    },
+    "Default": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Varsayılan"
+          }
+        }
+      }
+    },
+    "Delete": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sil"
+          }
+        }
+      }
+    },
+    "Dusk": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alacakaranlık"
+          }
+        }
+      }
+    },
+    "End": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bitiş"
+          }
+        }
+      }
+    },
+    "Gradient": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gradyan"
+          }
+        }
+      }
+    },
+    "Graphite": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grafit"
+          }
+        }
+      }
+    },
+    "Lavender": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lavanta"
+          }
+        }
+      }
+    },
+    "Layout": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yerleşim"
+          }
+        }
+      }
+    },
+    "Medium": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Orta"
+          }
+        }
+      }
+    },
+    "Mint": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nane"
+          }
+        }
+      }
+    },
+    "More Save Options": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diğer Kaydetme Seçenekleri"
+          }
+        }
+      }
+    },
+    "Name": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ad"
+          }
+        }
+      }
+    },
+    "None": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yok"
+          }
+        }
+      }
+    },
+    "Ocean": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Okyanus"
+          }
+        }
+      }
+    },
+    "Output size %lld by %lld pixels": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Çıktı boyutu %lld × %lld piksel"
+          }
+        }
+      }
+    },
+    "Padding": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kenar Boşluğu"
+          }
+        }
+      }
+    },
+    "Peach": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Şeftali"
+          }
+        }
+      }
+    },
+    "Presets": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hazır Ayarlar"
+          }
+        }
+      }
+    },
+    "Preview unavailable": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Önizleme kullanılamıyor"
+          }
+        }
+      }
+    },
+    "Save": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaydet"
+          }
+        }
+      }
+    },
+    "Save (⌘S)": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaydet (⌘S)"
+          }
+        }
+      }
+    },
+    "Save As…": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Farklı Kaydet…"
+          }
+        }
+      }
+    },
+    "Save Preset": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hazır Ayarı Kaydet"
+          }
+        }
+      }
+    },
+    "Save the current style as a named preset.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geçerli stili adlandırılmış bir hazır ayar olarak kaydedin."
+          }
+        }
+      }
+    },
+    "Scale": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ölçek"
+          }
+        }
+      }
+    },
+    "Shadow": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gölge"
+          }
+        }
+      }
+    },
+    "Soft": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yumuşak"
+          }
+        }
+      }
+    },
+    "Start": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Başlangıç"
+          }
+        }
+      }
+    },
+    "Strong": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Güçlü"
+          }
+        }
+      }
+    },
+    "Sunset": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gün Batımı"
+          }
+        }
+      }
+    },
+    "Top": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Üst"
+          }
+        }
+      }
+    },
+    "Transparent background": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saydam arka plan"
+          }
+        }
+      }
+    },
+    "Wallpaper": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Duvar Kâğıdı"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
