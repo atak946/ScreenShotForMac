@@ -1,0 +1,186 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "Actual Size": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gerçek Boyut"
+          }
+        }
+      }
+    },
+    "Click-through": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tıklamaları Geçir"
+          }
+        }
+      }
+    },
+    "Click-through: %lld pins · Disable": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tıklama Geçişi: %lld · Kapat"
+          }
+        }
+      }
+    },
+    "Click-through: 1 pin · Disable": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tıklama Geçişi: 1 · Kapat"
+          }
+        }
+      }
+    },
+    "Close": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kapat"
+          }
+        }
+      }
+    },
+    "Close All Pins": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tüm Sabitlemeleri Kapat"
+          }
+        }
+      }
+    },
+    "Close pin": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sabitlemeyi kapat"
+          }
+        }
+      }
+    },
+    "Copy": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kopyala"
+          }
+        }
+      }
+    },
+    "Could not create the image file.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Görüntü dosyası oluşturulamadı."
+          }
+        }
+      }
+    },
+    "Could not encode the image as PNG.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Görüntü PNG olarak kodlanamadı."
+          }
+        }
+      }
+    },
+    "Image": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Görüntü"
+          }
+        }
+      }
+    },
+    "Opacity": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opaklık"
+          }
+        }
+      }
+    },
+    "Opacity %lld%%": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opaklık %%%lld"
+          }
+        }
+      }
+    },
+    "Pinned Screenshot": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sabitlenmiş Ekran Görüntüsü"
+          }
+        }
+      }
+    },
+    "Restore mouse interaction for all pins": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tüm sabitlemeler için fare etkileşimini geri yükle"
+          }
+        }
+      }
+    },
+    "Rotate 90°": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "90° Döndür"
+          }
+        }
+      }
+    },
+    "Save…": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaydet…"
+          }
+        }
+      }
+    },
+    "View": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Görünüm"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
