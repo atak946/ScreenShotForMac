@@ -1,0 +1,646 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "%lld images": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld görsel"
+          }
+        }
+      }
+    },
+    "%lld slices": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld parça"
+          }
+        }
+      }
+    },
+    "Add": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ekle"
+          }
+        }
+      }
+    },
+    "Add Images": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Görsel Ekle"
+          }
+        }
+      }
+    },
+    "Add Images…": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Görsel Ekle…"
+          }
+        }
+      }
+    },
+    "Add Images… (⌘O)": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Görsel Ekle… (⌘O)"
+          }
+        }
+      }
+    },
+    "Add an image to split.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bölmek için bir görsel ekleyin."
+          }
+        }
+      }
+    },
+    "Alignment": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hizalama"
+          }
+        }
+      }
+    },
+    "Background": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Arka Plan"
+          }
+        }
+      }
+    },
+    "Center": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Orta"
+          }
+        }
+      }
+    },
+    "Choose a folder for the slices": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Parçalar için bir klasör seçin"
+          }
+        }
+      }
+    },
+    "Choose images to add": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eklenecek görselleri seçin"
+          }
+        }
+      }
+    },
+    "Clear Lines": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Çizgileri Temizle"
+          }
+        }
+      }
+    },
+    "Click the image to add a split line. Drag lines to move them.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bölme çizgisi eklemek için görsele tıklayın. Taşımak için çizgileri sürükleyin."
+          }
+        }
+      }
+    },
+    "Click the preview to add a line; hover a line to remove it.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Çizgi eklemek için önizlemeye tıklayın; kaldırmak için imleci çizginin üzerine getirin."
+          }
+        }
+      }
+    },
+    "Color": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Renk"
+          }
+        }
+      }
+    },
+    "Columns": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sütunlar"
+          }
+        }
+      }
+    },
+    "Combine": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Birleştir"
+          }
+        }
+      }
+    },
+    "Combine Images": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Görselleri Birleştir"
+          }
+        }
+      }
+    },
+    "Combined preview": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Birleştirilmiş önizleme"
+          }
+        }
+      }
+    },
+    "Copy": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kopyala"
+          }
+        }
+      }
+    },
+    "Copy Selected Slice (⌘C)": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Seçili Parçayı Kopyala (⌘C)"
+          }
+        }
+      }
+    },
+    "Copy Slice": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Parçayı Kopyala"
+          }
+        }
+      }
+    },
+    "Copy to Clipboard (⌘C)": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Panoya Kopyala (⌘C)"
+          }
+        }
+      }
+    },
+    "Corner Radius": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Köşe Yarıçapı"
+          }
+        }
+      }
+    },
+    "Custom Lines": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Özel Çizgiler"
+          }
+        }
+      }
+    },
+    "Direction": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yön"
+          }
+        }
+      }
+    },
+    "Drop images here": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Görselleri buraya bırakın"
+          }
+        }
+      }
+    },
+    "End": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Son"
+          }
+        }
+      }
+    },
+    "Equal": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eşit"
+          }
+        }
+      }
+    },
+    "Grid": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Izgara"
+          }
+        }
+      }
+    },
+    "Horizontal": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yatay"
+          }
+        }
+      }
+    },
+    "Horizontal Slices": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yatay Parçalar"
+          }
+        }
+      }
+    },
+    "Image %lld by %lld pixels": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Görsel %1$lld × %2$lld piksel"
+          }
+        }
+      }
+    },
+    "Images": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Görseller"
+          }
+        }
+      }
+    },
+    "Layout": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yerleşim"
+          }
+        }
+      }
+    },
+    "Match Heights": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yükseklikleri Eşitle"
+          }
+        }
+      }
+    },
+    "Match Widths": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Genişlikleri Eşitle"
+          }
+        }
+      }
+    },
+    "Method": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yöntem"
+          }
+        }
+      }
+    },
+    "Mode": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mod"
+          }
+        }
+      }
+    },
+    "More Save Options": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diğer Kaydetme Seçenekleri"
+          }
+        }
+      }
+    },
+    "Or paste with ⌘V, or add files from disk.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ya da ⌘V ile yapıştırın veya diskten dosya ekleyin."
+          }
+        }
+      }
+    },
+    "Output size %lld by %lld pixels": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Çıktı boyutu %1$lld × %2$lld piksel"
+          }
+        }
+      }
+    },
+    "Padding": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kenar Boşluğu"
+          }
+        }
+      }
+    },
+    "Remove": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaldır"
+          }
+        }
+      }
+    },
+    "Remove Line": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Çizgiyi Kaldır"
+          }
+        }
+      }
+    },
+    "Save": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaydet"
+          }
+        }
+      }
+    },
+    "Save (⌘S)": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaydet (⌘S)"
+          }
+        }
+      }
+    },
+    "Save All": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tümünü Kaydet"
+          }
+        }
+      }
+    },
+    "Save All to Folder…": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tümünü Klasöre Kaydet…"
+          }
+        }
+      }
+    },
+    "Save As…": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Farklı Kaydet…"
+          }
+        }
+      }
+    },
+    "Save Slices": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Parçaları Kaydet"
+          }
+        }
+      }
+    },
+    "Scales smaller images up, at most 2×.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Küçük görselleri en fazla 2× büyütür."
+          }
+        }
+      }
+    },
+    "Slice": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Parça"
+          }
+        }
+      }
+    },
+    "Slices": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Parçalar"
+          }
+        }
+      }
+    },
+    "Source: %lld × %lld px": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaynak: %1$lld × %2$lld px"
+          }
+        }
+      }
+    },
+    "Spacing": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aralık"
+          }
+        }
+      }
+    },
+    "Split": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Böl"
+          }
+        }
+      }
+    },
+    "Split line": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bölme çizgisi"
+          }
+        }
+      }
+    },
+    "Split preview": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bölme önizlemesi"
+          }
+        }
+      }
+    },
+    "Start": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Baş"
+          }
+        }
+      }
+    },
+    "Transparent": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saydam"
+          }
+        }
+      }
+    },
+    "Vertical": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dikey"
+          }
+        }
+      }
+    },
+    "Vertical Slices": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dikey Parçalar"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
