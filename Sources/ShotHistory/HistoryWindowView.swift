@@ -13,7 +13,7 @@ struct HistoryWindowView: View {
         content(sections)
             .frame(minWidth: Self.minimumSize.width, minHeight: Self.minimumSize.height)
             .navigationTitle(Text("Capture History", bundle: .module))
-            .navigationSubtitle(Text("\(sections.reduce(0) { $0 + $1.items.count }) items", bundle: .module))
+            .navigationSubtitle(String(localized: "\(sections.reduce(0) { $0 + $1.items.count }) items", bundle: .module))
             .searchable(text: $model.query, placement: .toolbar, prompt: Text("Search text, app or date", bundle: .module))
             .toolbar { toolbarContent }
             .sheet(item: $model.quickLookItem) { item in

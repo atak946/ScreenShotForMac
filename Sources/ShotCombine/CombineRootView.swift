@@ -44,12 +44,13 @@ struct CombineRootView: View {
         }
     }
 
-    private var subtitle: Text {
+    /// Resolved here: a bridged window subtitle does not look up the module's catalog.
+    private var subtitle: String {
         switch model.mode {
         case .combine:
-            return Text("\(model.items.count) images", bundle: .module)
+            return String(localized: "\(model.items.count) images", bundle: .module)
         case .split:
-            return Text("\(model.sliceRects.count) slices", bundle: .module)
+            return String(localized: "\(model.sliceRects.count) slices", bundle: .module)
         }
     }
 
