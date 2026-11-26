@@ -16,6 +16,7 @@ public enum WindowActivation {
         track(window)
         if NSApp.activationPolicy() != .regular {
             NSApp.setActivationPolicy(.regular)
+            applyDockIcon()
         }
         if window.isMiniaturized { window.deminiaturize(nil) }
         NSApp.activate()
@@ -26,6 +27,15 @@ public enum WindowActivation {
             NSApp.activate()
             window.makeKeyAndOrderFront(nil)
         }
+    }
+
+    /// An LSUIElement app switched to `.regular` at runtime can get a generic Dock tile;
+    /// set the bundle icon explicitly so the Dock shows the real app icon.
+    private static func applyDockIcon() {
+        let icon = NSImage(named: NSImage.applicationIconName)
+            ?? NSWorkspace.shared.icon(forFile: Bundle.main.bundlePath)
+        NSApp.applicationIconImage = icon
+        NSApp.dockTile.display()
     }
 
     private static func track(_ window: NSWindow) {
