@@ -1,0 +1,146 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "Auto-scroll": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Otomatik Kaydır"
+          }
+        }
+      }
+    },
+    "Auto-scroll needs Accessibility permission. Enable it in System Settings > Privacy & Security > Accessibility.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Otomatik kaydırma için Erişilebilirlik izni gerekir. Sistem Ayarları > Gizlilik ve Güvenlik > Erişilebilirlik bölümünden etkinleştirin."
+          }
+        }
+      }
+    },
+    "Auto-scrolling…": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Otomatik kaydırılıyor…"
+          }
+        }
+      }
+    },
+    "Cancel": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vazgeç"
+          }
+        }
+      }
+    },
+    "Done": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bitti"
+          }
+        }
+      }
+    },
+    "Drag to select the area to scroll · Esc to cancel": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaydırılacak alanı seçmek için sürükleyin · Vazgeçmek için Esc"
+          }
+        }
+      }
+    },
+    "Lost track; scroll back up a little.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Konum kaybedildi; biraz yukarı kaydırın."
+          }
+        }
+      }
+    },
+    "Maximum height reached. Click Done.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "En fazla yüksekliğe ulaşıldı. Bitti'ye tıklayın."
+          }
+        }
+      }
+    },
+    "No frames were captured.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hiç kare yakalanmadı."
+          }
+        }
+      }
+    },
+    "Reached the end. Click Done.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sona ulaşıldı. Bitti'ye tıklayın."
+          }
+        }
+      }
+    },
+    "Scroll now…": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Şimdi kaydırın…"
+          }
+        }
+      }
+    },
+    "Scroll the area automatically": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alanı otomatik olarak kaydır"
+          }
+        }
+      }
+    },
+    "Scrolling up is ignored; scroll down.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yukarı kaydırma yok sayılır; aşağı kaydırın."
+          }
+        }
+      }
+    },
+    "Stop Auto-scroll": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Otomatik Kaydırmayı Durdur"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
