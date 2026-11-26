@@ -1,0 +1,246 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "Capture Area": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alan Yakala"
+          }
+        }
+      }
+    },
+    "Capture Area with Timer": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zamanlayıcıyla Alan Yakala"
+          }
+        }
+      }
+    },
+    "Capture Fullscreen": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tam Ekranı Yakala"
+          }
+        }
+      }
+    },
+    "Capture History…": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yakalama Geçmişi…"
+          }
+        }
+      }
+    },
+    "Capture Previous Area": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Önceki Alanı Yakala"
+          }
+        }
+      }
+    },
+    "Capture Text (OCR)": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Metin Yakala (OCR)"
+          }
+        }
+      }
+    },
+    "Capture Window": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pencere Yakala"
+          }
+        }
+      }
+    },
+    "Capture failed: %@": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yakalama başarısız oldu: %@"
+          }
+        }
+      }
+    },
+    "Measure (Pixel Ruler)": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ölç (Piksel Cetveli)"
+          }
+        }
+      }
+    },
+    "No display available to capture.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yakalanabilecek bir ekran yok."
+          }
+        }
+      }
+    },
+    "Open Clipboard in Editor": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Panoyu Düzenleyicide Aç"
+          }
+        }
+      }
+    },
+    "Pick Color": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Renk Seç"
+          }
+        }
+      }
+    },
+    "Pin Image from Clipboard": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Panodaki Görüntüyü Sabitle"
+          }
+        }
+      }
+    },
+    "Record Screen (GIF)": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ekran Kaydı (GIF)"
+          }
+        }
+      }
+    },
+    "Record Screen (Video)": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ekran Kaydı (Video)"
+          }
+        }
+      }
+    },
+    "Scan QR Code": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "QR Kodu Tara"
+          }
+        }
+      }
+    },
+    "Screen Recording permission is required. Enable it in System Settings > Privacy & Security > Screen Recording.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ekran Kaydı izni gerekli. Sistem Ayarları > Gizlilik ve Güvenlik > Ekran Kaydı bölümünden etkinleştirin."
+          }
+        }
+      }
+    },
+    "Scrolling Capture": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaydırmalı Yakalama"
+          }
+        }
+      }
+    },
+    "Settings…": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ayarlar…"
+          }
+        }
+      }
+    },
+    "System Default": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sistem Varsayılanı"
+          }
+        }
+      }
+    },
+    "No upload destination is configured. Set one up in Settings > Upload.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yükleme hedefi yapılandırılmamış. Ayarlar > Yükleme bölümünden bir hedef ayarlayın."
+          }
+        }
+      }
+    },
+    "Upload settings are invalid: %@": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yükleme ayarları geçersiz: %@"
+          }
+        }
+      }
+    },
+    "Upload failed (%lld): %@": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yükleme başarısız (%lld): %@"
+          }
+        }
+      }
+    },
+    "Upload failed: %@": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yükleme başarısız: %@"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
