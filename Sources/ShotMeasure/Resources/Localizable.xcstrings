@@ -1,0 +1,56 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "Copied %@": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kopyalandı: %@"
+          }
+        }
+      }
+    },
+    "Pixels": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Piksel"
+          }
+        }
+      }
+    },
+    "Points": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nokta"
+          }
+        }
+      }
+    },
+    "Tolerance %lld": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tolerans %lld"
+          }
+        }
+      }
+    },
+    "Unable to read snapshot pixels": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ekran görüntüsü pikselleri okunamıyor"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
