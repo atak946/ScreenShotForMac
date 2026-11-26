@@ -20,6 +20,9 @@ public struct CaptureResult: @unchecked Sendable {
     public let capturedAt: Date
     /// Localized name of the frontmost / captured application, if known.
     public let sourceAppName: String?
+    /// Set when the user picked a quick action (Copy / Save) in the capture overlay;
+    /// the app then performs it directly instead of the after-capture behavior.
+    public let quickAction: ExportAction?
 
     public init(
         image: CGImage,
@@ -27,7 +30,8 @@ public struct CaptureResult: @unchecked Sendable {
         screenRect: CGRect,
         mode: CaptureMode,
         capturedAt: Date = Date(),
-        sourceAppName: String? = nil
+        sourceAppName: String? = nil,
+        quickAction: ExportAction? = nil
     ) {
         self.image = image
         self.scale = scale
@@ -35,6 +39,15 @@ public struct CaptureResult: @unchecked Sendable {
         self.mode = mode
         self.capturedAt = capturedAt
         self.sourceAppName = sourceAppName
+        self.quickAction = quickAction
+    }
+
+    /// Copy of this result carrying a quick action.
+    public func with(quickAction: ExportAction?) -> CaptureResult {
+        CaptureResult(
+            image: image, scale: scale, screenRect: screenRect, mode: mode,
+            capturedAt: capturedAt, sourceAppName: sourceAppName, quickAction: quickAction
+        )
     }
 
     /// Size in points (image pixels divided by scale).

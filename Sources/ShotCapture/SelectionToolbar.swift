@@ -10,6 +10,7 @@ final class SelectionToolbar: NSView {
 
     var onCapture: (() -> Void)?
     var onCancel: (() -> Void)?
+    var onQuickAction: ((ExportAction) -> Void)?
 
     private let surface = GlassSurfaceView(cornerRadius: height / 2, forceDark: true)
     private let sizeLabel = NSTextField(labelWithString: "")
@@ -32,8 +33,20 @@ final class SelectionToolbar: NSView {
             action: #selector(captureClicked)
         )
         capture.toolTip = String(localized: "Capture the selection (Return)", bundle: .module)
+        let copy = IconButton(
+            symbol: "doc.on.doc",
+            tooltip: String(localized: "Copy to Clipboard (⌘C)", bundle: .module),
+            target: self,
+            action: #selector(copyClicked)
+        )
+        let save = IconButton(
+            symbol: "square.and.arrow.down",
+            tooltip: String(localized: "Save to File (⌘S)", bundle: .module),
+            target: self,
+            action: #selector(saveClicked)
+        )
 
-        let stack = NSStackView(views: [sizeLabel, cancel, capture])
+        let stack = NSStackView(views: [sizeLabel, cancel, copy, save, capture])
         stack.orientation = .horizontal
         stack.spacing = DS.Space.xs
         stack.setCustomSpacing(DS.Space.s, after: sizeLabel)
@@ -70,6 +83,16 @@ final class SelectionToolbar: NSView {
     @objc
     private func captureClicked() {
         onCapture?()
+    }
+
+    @objc
+    private func copyClicked() {
+        onQuickAction?(.copy)
+    }
+
+    @objc
+    private func saveClicked() {
+        onQuickAction?(.save)
     }
 
     @objc

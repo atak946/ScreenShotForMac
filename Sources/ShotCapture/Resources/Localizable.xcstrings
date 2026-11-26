@@ -31,12 +31,32 @@
         }
       }
     },
+    "Copy to Clipboard (⌘C)": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Panoya Kopyala (⌘C)"
+          }
+        }
+      }
+    },
     "No capturable windows are on screen.": {
       "localizations": {
         "tr": {
           "stringUnit": {
             "state": "translated",
             "value": "Ekranda yakalanabilecek pencere yok."
+          }
+        }
+      }
+    },
+    "Save to File (⌘S)": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dosyaya Kaydet (⌘S)"
           }
         }
       }

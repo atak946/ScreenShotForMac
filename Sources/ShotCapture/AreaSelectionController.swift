@@ -1,4 +1,5 @@
 import AppKit
+import ShotCore
 
 /// A frozen snapshot of one display.
 @MainActor
@@ -39,6 +40,8 @@ struct AreaSelection {
     let surface: SelectionSurface
     /// Set when the user clicked a window / element instead of dragging.
     let window: WindowInfo?
+    /// Copy / Save chosen from the selection toolbar (or ⌘C / ⌘S).
+    var quickAction: ExportAction?
 }
 
 /// A window paired with its frame converted to global AppKit coordinates.
@@ -213,6 +216,10 @@ final class AreaSelectionController: OverlayInputDelegate {
             finish(nil)
         case KeyCode.returnKey, KeyCode.keypadEnter:
             if case .editing = phase { confirm() }
+        case KeyCode.c where event.modifierFlags.contains(.command):
+            if case .editing = phase { confirm(.copy) }
+        case KeyCode.s where event.modifierFlags.contains(.command):
+            if case .editing = phase { confirm(.save) }
         case KeyCode.space:
             isSpaceDown = true
         case KeyCode.tab:
@@ -270,9 +277,9 @@ final class AreaSelectionController: OverlayInputDelegate {
         refresh()
     }
 
-    private func confirm() {
+    private func confirm(_ quickAction: ExportAction? = nil) {
         guard let rect = selection, let index = surfaceIndex, rect.width >= 1, rect.height >= 1 else { return }
-        finish(AreaSelection(rect: rect, surface: surfaces[index], window: nil))
+        finish(AreaSelection(rect: rect, surface: surfaces[index], window: nil, quickAction: quickAction))
     }
 
     // MARK: - Private: hover snapping
@@ -313,6 +320,7 @@ final class AreaSelectionController: OverlayInputDelegate {
             let view = AreaSelectionView(surface: surface)
             view.inputDelegate = self
             view.onConfirm = { [weak self] in self?.confirm() }
+            view.onQuickAction = { [weak self] action in self?.confirm(action) }
             view.onCancel = { [weak self] in self?.finish(nil) }
             window.contentView = view
             return (window, view)

@@ -7,6 +7,11 @@ extension AppCoordinator {
         guard let result else { return }
         lastCapture = result
         recordInHistory(result)
+        if let quickAction = result.quickAction {
+            // Copy / Save picked in the capture overlay: do just that, skip the preview.
+            export(result.image, action: quickAction, source: result)
+            return
+        }
         if settings.alsoCopyToClipboard || settings.afterCapture == .copyToClipboard {
             exporter.copyToClipboard(result.image, scale: result.scale)
         }

@@ -18,6 +18,10 @@ final class AreaSelectionView: OverlayInputView {
         didSet { toolbar.onCancel = onCancel }
     }
 
+    var onQuickAction: ((ExportAction) -> Void)? {
+        didSet { toolbar.onQuickAction = onQuickAction }
+    }
+
     private let surface: SelectionSurface
     private let chrome: SelectionChromeView
     private let magnifier: MagnifierView

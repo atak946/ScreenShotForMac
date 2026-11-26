@@ -11,6 +11,8 @@ enum KeyCode {
     static let rightArrow: UInt16 = 124
     static let downArrow: UInt16 = 125
     static let upArrow: UInt16 = 126
+    static let c: UInt16 = 8
+    static let s: UInt16 = 1
 }
 
 /// Routes key events to a handler through a local monitor (events delivered to this app,

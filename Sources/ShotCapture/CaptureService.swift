@@ -92,7 +92,7 @@ public final class CaptureService: CaptureServicing {
             rect: selection.rect,
             snapshot: snapshot,
             sourceApp: selection.window?.appName ?? sourceApp
-        )
+        ).with(quickAction: selection.quickAction)
     }
 
     func interactiveWindow() async throws -> CaptureResult? {
