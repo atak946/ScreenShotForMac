@@ -7,6 +7,13 @@ project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+### Added
+- App icon.
+- `ssfm://backdrop?path=<file>` opens an image in Backdrop, and `ssfm://combine?path=<a>&path=<b>` opens images in Combine.
+
+### Fixed
+- The image count in the Combine window and the item count in the History window are now translated.
+
 ## [0.1.0] - 2026-11-26
 
 ### Added
