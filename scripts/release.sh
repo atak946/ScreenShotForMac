@@ -233,7 +233,7 @@ Next steps
   2. Move the "Unreleased" entries in CHANGELOG.md under "## [${VERSION}]" and commit.
   3. Tag the release:   git tag -a v${VERSION} -m "v${VERSION}" && git push origin v${VERSION}
   4. Create a GitHub release for v${VERSION}, attach the DMG and its .sha256 file.
-  5. Sparkle appcast: not integrated yet (TODO, see docs/RELEASING.md).
+  5. Publish the GitHub Release + Sparkle appcast:  scripts/publish-release.sh
 EOF
 }
 

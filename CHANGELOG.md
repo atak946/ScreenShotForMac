@@ -7,6 +7,8 @@ project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.0] - 2026-11-26
+
 ### Added
 
 #### Capture
@@ -54,11 +56,13 @@ project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 - `ssfm://` URL scheme for capture, OCR, color picking, QR scanning and settings.
 - English and Turkish localization, with an in-app language picker.
 
-### In progress
-- Uploads to S3-compatible storage and custom HTTP endpoints, with credentials in the Keychain.
-- Per-shortcut workflows and App Intents for Shortcuts.app.
-- `ssfm` command-line tool.
-- Video trimming and image combining.
-- Automatic updates with Sparkle.
+#### Sharing and automation
+- Uploads to S3-compatible storage (AWS S3, Cloudflare R2, MinIO, B2) and custom HTTP endpoints, with credentials in the Keychain.
+- Workflows with per-workflow global shortcuts, `ssfm://` URL automation and Shortcuts.app actions.
+- `ssfm` command-line tool (`scripts/install-cli.sh`).
+- Video trimming editor and image combine/split tool.
+- Automatic updates via Sparkle, published through GitHub Releases.
+- English and Turkish localization.
 
-[Unreleased]: https://github.com/atak946/ScreenShotForMac/commits/main
+[Unreleased]: https://github.com/atak946/ScreenShotForMac/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/atak946/ScreenShotForMac/releases/tag/v0.1.0
