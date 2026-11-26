@@ -7,6 +7,14 @@ project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.2] - 2026-11-26
+
+### Fixed
+- Screen Recording permission: the Permissions pane now registers the app with macOS before opening System Settings, and offers "Quit & Reopen" because macOS only applies the permission after a restart.
+
+### Changed
+- Development builds use a separate bundle identity ("ScreenShotForMac Dev"), so their permissions, preferences and history no longer collide with the installed release.
+
 ## [0.1.1] - 2026-11-26
 
 ### Added
@@ -73,6 +81,7 @@ project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 - Automatic updates via Sparkle, published through GitHub Releases.
 - English and Turkish localization.
 
-[Unreleased]: https://github.com/atak946/ScreenShotForMac/compare/v0.1.1...HEAD
+[Unreleased]: https://github.com/atak946/ScreenShotForMac/compare/v0.1.2...HEAD
+[0.1.2]: https://github.com/atak946/ScreenShotForMac/compare/v0.1.1...v0.1.2
 [0.1.1]: https://github.com/atak946/ScreenShotForMac/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/atak946/ScreenShotForMac/releases/tag/v0.1.0
