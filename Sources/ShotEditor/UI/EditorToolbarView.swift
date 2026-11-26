@@ -1,14 +1,14 @@
 import ShotCore
 import SwiftUI
 
-/// Unified top bar living in the (transparent) titlebar area.
+/// Editor bar hosted as the single item of a unified `NSToolbar` (see `EditorToolbarHost`).
 /// Leading: Undo / Redo (+ image size). Center: tool palette. Trailing: zoom, more, export.
 /// Keyboard shortcuts are handled by `CanvasView` (no main menu in an LSUIElement app).
 struct EditorToolbarView: View {
-    static let height: CGFloat = 52
-    /// Room reserved for the traffic lights.
-    static let leadingInset: CGFloat = 84
-    private static let trailingInset: CGFloat = DS.Space.m
+    /// Height of the toolbar item; AppKit centers it (and the traffic lights) in the titlebar.
+    static let height: CGFloat = 36
+    /// The window's center sits this far left of the bar's center (traffic lights take the leading space).
+    private static let centerBias: CGFloat = -EditorToolbarHost.reservedWidth / 2
     /// Window width from which the image size is shown next to Undo / Redo.
     private static let dimensionsMinWidth: CGFloat = 960
 
@@ -18,21 +18,15 @@ struct EditorToolbarView: View {
         GeometryReader { proxy in
             ToolbarZonesLayout(
                 spacing: DS.Space.m,
-                centerBias: (Self.trailingInset - Self.leadingInset) / 2
+                centerBias: Self.centerBias
             ) {
                 LeadingToolbarItems(viewModel: viewModel, showsDimensions: proxy.size.width >= Self.dimensionsMinWidth)
                 ToolPalette(viewModel: viewModel)
                 TrailingToolbarItems(viewModel: viewModel)
             }
-            .padding(.leading, Self.leadingInset)
-            .padding(.trailing, Self.trailingInset)
             .frame(width: proxy.size.width, height: proxy.size.height)
         }
         .background { WindowDragArea() }
-        .background(Color.dsCanvas)
-        .overlay(alignment: .bottom) {
-            Rectangle().fill(Color.dsStroke).frame(height: DS.Size.hairline)
-        }
     }
 }
 
@@ -40,7 +34,7 @@ struct EditorToolbarView: View {
 /// edges, center at the window's midpoint when it fits, otherwise centered in the gap.
 /// The center gets the remaining width as its proposal, so `ViewThatFits` can collapse it.
 struct ToolbarZonesLayout: Layout {
-    private static let defaultHeight: CGFloat = 52
+    private static let defaultHeight: CGFloat = 36
 
     let spacing: CGFloat
     /// Offset of the window center from the layout's own center.

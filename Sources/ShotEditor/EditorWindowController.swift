@@ -11,6 +11,7 @@ final class EditorWindowController: NSWindowController, NSWindowDelegate {
     private static let toastTopInset: CGFloat = 12
 
     private let viewModel: EditorViewModel
+    private let toolbarHost: EditorToolbarHost
     private let onClose: () -> Void
 
     init(
@@ -22,11 +23,12 @@ final class EditorWindowController: NSWindowController, NSWindowDelegate {
     ) {
         let document = EditorDocument(baseImage: capture.image, scale: capture.scale)
         viewModel = EditorViewModel(document: document, onExport: onExport)
+        toolbarHost = EditorToolbarHost(viewModel: viewModel)
         self.onClose = onClose
 
         let window = NSWindow(
             contentRect: CGRect(origin: .zero, size: Self.minimumSize),
-            styleMask: [.titled, .closable, .miniaturizable, .resizable, .fullSizeContentView],
+            styleMask: [.titled, .closable, .miniaturizable, .resizable],
             backing: .buffered,
             defer: false
         )
@@ -43,6 +45,7 @@ final class EditorWindowController: NSWindowController, NSWindowDelegate {
 
         let canvas = CanvasView(viewModel: viewModel)
         window.contentView = makeContentView(canvas: canvas)
+        toolbarHost.install(in: window)
         window.initialFirstResponder = canvas
         viewModel.onRequestClose = { [weak window] in window?.performClose(nil) }
         viewModel.shouldCloseAfterSave = { [weak settings] in settings?.editorCloseAfterSave ?? true }
@@ -61,7 +64,7 @@ final class EditorWindowController: NSWindowController, NSWindowDelegate {
     func present() {
         guard let window else { return }
         WindowActivation.present(window)
-        centerTrafficLights()
+        toolbarHost.updateWidth(for: window)
         if let canvas = window.initialFirstResponder {
             window.makeFirstResponder(canvas)
         }
@@ -94,21 +97,15 @@ final class EditorWindowController: NSWindowController, NSWindowDelegate {
 
     private func makeContentView(canvas: CanvasView) -> NSView {
         let container = NSView()
-        let toolbar = NSHostingView(rootView: EditorToolbarView(viewModel: viewModel))
-        toolbar.sizingOptions = []
         let styleBar = StyleBarHostingView(viewModel: viewModel)
         let toast = PassthroughHostingView(rootView: EditorToastView(viewModel: viewModel))
         toast.sizingOptions = [.intrinsicContentSize]
-        [canvas, toolbar, styleBar, toast].forEach {
+        [canvas, styleBar, toast].forEach {
             $0.translatesAutoresizingMaskIntoConstraints = false
             container.addSubview($0)
         }
         NSLayoutConstraint.activate([
-            toolbar.topAnchor.constraint(equalTo: container.topAnchor),
-            toolbar.leadingAnchor.constraint(equalTo: container.leadingAnchor),
-            toolbar.trailingAnchor.constraint(equalTo: container.trailingAnchor),
-            toolbar.heightAnchor.constraint(equalToConstant: EditorToolbarView.height),
-            canvas.topAnchor.constraint(equalTo: toolbar.bottomAnchor),
+            canvas.topAnchor.constraint(equalTo: container.topAnchor),
             canvas.leadingAnchor.constraint(equalTo: container.leadingAnchor),
             canvas.trailingAnchor.constraint(equalTo: container.trailingAnchor),
             canvas.bottomAnchor.constraint(equalTo: container.bottomAnchor),
@@ -120,18 +117,13 @@ final class EditorWindowController: NSWindowController, NSWindowDelegate {
         return container
     }
 
-    private func centerTrafficLights() {
-        guard let window else { return }
-        TrafficLights.center(in: window, barHeight: EditorToolbarView.height)
-    }
-
     /// Sizes the window to the image (points) up to 85% of the screen, then centers it.
     private func sizeWindow(_ window: NSWindow, imagePointSize: CGSize) {
         let screen = NSScreen.main ?? NSScreen.screens.first
         let visible = screen?.visibleFrame ?? CGRect(x: 0, y: 0, width: 1440, height: 900)
         let desired = CGSize(
             width: imagePointSize.width + CanvasLayout.padding * 2,
-            height: imagePointSize.height + CanvasLayout.padding + CanvasLayout.bottomPadding + EditorToolbarView.height
+            height: imagePointSize.height + CanvasLayout.padding + CanvasLayout.bottomPadding
         )
         let size = CGSize(
             width: min(max(desired.width, Self.minimumSize.width), visible.width * Self.maxScreenFraction),
@@ -144,9 +136,10 @@ final class EditorWindowController: NSWindowController, NSWindowDelegate {
 
     // MARK: - NSWindowDelegate
 
-    func windowDidResize(_ notification: Notification) { centerTrafficLights() }
-    func windowDidExitFullScreen(_ notification: Notification) { centerTrafficLights() }
-    func windowDidBecomeKey(_ notification: Notification) { centerTrafficLights() }
+    func windowDidResize(_ notification: Notification) {
+        guard let window else { return }
+        toolbarHost.updateWidth(for: window)
+    }
 
     func windowWillClose(_ notification: Notification) {
         Log.editor.debug("Editor window closed")
