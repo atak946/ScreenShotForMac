@@ -1,0 +1,1096 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "API Keys & Tokens" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "API Anahtarları ve Token'lar"
+          }
+        }
+      }
+    },
+    "Actual Size" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gerçek Boyut"
+          }
+        }
+      }
+    },
+    "Add %@" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Ekle"
+          }
+        }
+      }
+    },
+    "Add Counter" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sayaç Ekle"
+          }
+        }
+      }
+    },
+    "Add Stamp" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Damga Ekle"
+          }
+        }
+      }
+    },
+    "Apply" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uygula"
+          }
+        }
+      }
+    },
+    "Arrow" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ok"
+          }
+        }
+      }
+    },
+    "Arrow Head on Both Ends" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İki Uçta Ok Başı"
+          }
+        }
+      }
+    },
+    "Aspect Ratio" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En-Boy Oranı"
+          }
+        }
+      }
+    },
+    "Auto Redact" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Otomatik Gizle"
+          }
+        }
+      }
+    },
+    "Auto Redact failed" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Otomatik gizleme başarısız oldu"
+          }
+        }
+      }
+    },
+    "Backdrop…" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arka Plan…"
+          }
+        }
+      }
+    },
+    "Black" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siyah"
+          }
+        }
+      }
+    },
+    "Blue" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mavi"
+          }
+        }
+      }
+    },
+    "Blur" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bulanıklaştır"
+          }
+        }
+      }
+    },
+    "Bring to Front" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Öne Getir"
+          }
+        }
+      }
+    },
+    "Cancel" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vazgeç"
+          }
+        }
+      }
+    },
+    "Canvas Background" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tuval Arka Planı"
+          }
+        }
+      }
+    },
+    "Canvas Padding" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tuval Kenar Boşluğu"
+          }
+        }
+      }
+    },
+    "Change Arrow Style" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ok Stilini Değiştir"
+          }
+        }
+      }
+    },
+    "Change Color" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rengi Değiştir"
+          }
+        }
+      }
+    },
+    "Change Corner Radius" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Köşe Yarıçapını Değiştir"
+          }
+        }
+      }
+    },
+    "Change Fill" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dolguyu Değiştir"
+          }
+        }
+      }
+    },
+    "Change Font Size" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yazı Boyutunu Değiştir"
+          }
+        }
+      }
+    },
+    "Change Line Style" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Çizgi Stilini Değiştir"
+          }
+        }
+      }
+    },
+    "Change Line Width" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Çizgi Kalınlığını Değiştir"
+          }
+        }
+      }
+    },
+    "Choose at least one kind of data" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En az bir veri türü seçin"
+          }
+        }
+      }
+    },
+    "Color" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Renk"
+          }
+        }
+      }
+    },
+    "Copy" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopyala"
+          }
+        }
+      }
+    },
+    "Copy Image" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Görüntüyü Kopyala"
+          }
+        }
+      }
+    },
+    "Copy to Clipboard" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Panoya Kopyala"
+          }
+        }
+      }
+    },
+    "Corner Radius" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Köşe Yarıçapı"
+          }
+        }
+      }
+    },
+    "Counter" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sayaç"
+          }
+        }
+      }
+    },
+    "Credit Cards" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kredi Kartları"
+          }
+        }
+      }
+    },
+    "Crop" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kırp"
+          }
+        }
+      }
+    },
+    "Current Color" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geçerli Renk"
+          }
+        }
+      }
+    },
+    "Custom Color" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Özel Renk"
+          }
+        }
+      }
+    },
+    "Dashed Line" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kesikli Çizgi"
+          }
+        }
+      }
+    },
+    "Delete" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sil"
+          }
+        }
+      }
+    },
+    "Duplicate" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Çoğalt"
+          }
+        }
+      }
+    },
+    "Edit Text" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Metni Düzenle"
+          }
+        }
+      }
+    },
+    "Ellipse" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elips"
+          }
+        }
+      }
+    },
+    "Email Addresses" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "E-posta Adresleri"
+          }
+        }
+      }
+    },
+    "Erase" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sil"
+          }
+        }
+      }
+    },
+    "Filled Shape" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dolu Şekil"
+          }
+        }
+      }
+    },
+    "Finds sensitive text and hides it." : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hassas metinleri bulur ve gizler."
+          }
+        }
+      }
+    },
+    "Flip Horizontal" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yatay Çevir"
+          }
+        }
+      }
+    },
+    "Free" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Serbest"
+          }
+        }
+      }
+    },
+    "Green" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yeşil"
+          }
+        }
+      }
+    },
+    "Highlight" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vurgula"
+          }
+        }
+      }
+    },
+    "IBANs" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "IBAN'lar"
+          }
+        }
+      }
+    },
+    "IP Addresses" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "IP Adresleri"
+          }
+        }
+      }
+    },
+    "Image" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Görüntü"
+          }
+        }
+      }
+    },
+    "Image Size in Pixels" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Piksel Cinsinden Görüntü Boyutu"
+          }
+        }
+      }
+    },
+    "Insert Stamp" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Damga Ekle"
+          }
+        }
+      }
+    },
+    "JSON Web Tokens" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "JSON Web Token'ları"
+          }
+        }
+      }
+    },
+    "Line" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Çizgi"
+          }
+        }
+      }
+    },
+    "Line Width" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Çizgi Kalınlığı"
+          }
+        }
+      }
+    },
+    "Magnifier" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Büyüteç"
+          }
+        }
+      }
+    },
+    "Markup" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İşaretleme"
+          }
+        }
+      }
+    },
+    "More" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diğer"
+          }
+        }
+      }
+    },
+    "More Save Options" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diğer Kaydetme Seçenekleri"
+          }
+        }
+      }
+    },
+    "More Tools" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diğer Araçlar"
+          }
+        }
+      }
+    },
+    "Move" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taşı"
+          }
+        }
+      }
+    },
+    "None" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yok"
+          }
+        }
+      }
+    },
+    "Nothing sensitive found" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hassas veri bulunamadı"
+          }
+        }
+      }
+    },
+    "Orange" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Turuncu"
+          }
+        }
+      }
+    },
+    "Paste" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yapıştır"
+          }
+        }
+      }
+    },
+    "Paste Image" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Görüntüyü Yapıştır"
+          }
+        }
+      }
+    },
+    "Pen" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kalem"
+          }
+        }
+      }
+    },
+    "Phone Numbers" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Telefon Numaraları"
+          }
+        }
+      }
+    },
+    "Pin to Screen" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ekrana Sabitle"
+          }
+        }
+      }
+    },
+    "Pixelate" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pikselleştir"
+          }
+        }
+      }
+    },
+    "Rectangle" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dikdörtgen"
+          }
+        }
+      }
+    },
+    "Red" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kırmızı"
+          }
+        }
+      }
+    },
+    "Redact" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gizle"
+          }
+        }
+      }
+    },
+    "Redacted %lld items" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld öge gizlendi"
+          }
+        }
+      }
+    },
+    "Redaction Mode" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gizleme Modu"
+          }
+        }
+      }
+    },
+    "Redo" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yinele"
+          }
+        }
+      }
+    },
+    "Resize" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yeniden Boyutlandır"
+          }
+        }
+      }
+    },
+    "Rotate Left" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sola Döndür"
+          }
+        }
+      }
+    },
+    "Rotate Right" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sağa Döndür"
+          }
+        }
+      }
+    },
+    "Save" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaydet"
+          }
+        }
+      }
+    },
+    "Save As…" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Farklı Kaydet…"
+          }
+        }
+      }
+    },
+    "Screenshot – %lld×%lld" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ekran Görüntüsü – %lld×%lld"
+          }
+        }
+      }
+    },
+    "Select" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seç"
+          }
+        }
+      }
+    },
+    "Select All" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tümünü Seç"
+          }
+        }
+      }
+    },
+    "Send to Back" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arkaya Gönder"
+          }
+        }
+      }
+    },
+    "Shapes" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Şekiller"
+          }
+        }
+      }
+    },
+    "Single Arrow Head" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tek Ok Başı"
+          }
+        }
+      }
+    },
+    "Smart Erase" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Akıllı Silgi"
+          }
+        }
+      }
+    },
+    "Spotlight" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spot Işığı"
+          }
+        }
+      }
+    },
+    "Spotlight Dimming" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spot Işığı Karartması"
+          }
+        }
+      }
+    },
+    "Spotlight Opacity" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spot Işığı Opaklığı"
+          }
+        }
+      }
+    },
+    "Square" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kare"
+          }
+        }
+      }
+    },
+    "Style" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stil"
+          }
+        }
+      }
+    },
+    "Text" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Metin"
+          }
+        }
+      }
+    },
+    "Text Background" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Metin Arka Planı"
+          }
+        }
+      }
+    },
+    "Text Size" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Metin Boyutu"
+          }
+        }
+      }
+    },
+    "Transparent" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saydam"
+          }
+        }
+      }
+    },
+    "URLs" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "URL'ler"
+          }
+        }
+      }
+    },
+    "Undo" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geri Al"
+          }
+        }
+      }
+    },
+    "Upload" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yükle"
+          }
+        }
+      }
+    },
+    "White" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beyaz"
+          }
+        }
+      }
+    },
+    "Yellow" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sarı"
+          }
+        }
+      }
+    },
+    "Zoom" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yakınlaştırma"
+          }
+        }
+      }
+    },
+    "Zoom In" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yakınlaştır"
+          }
+        }
+      }
+    },
+    "Zoom Out" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uzaklaştır"
+          }
+        }
+      }
+    },
+    "Zoom to Fit" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pencereye Sığdır"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
