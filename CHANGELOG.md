@@ -10,6 +10,7 @@ project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 ## [0.1.2] - 2026-11-26
 
 ### Fixed
+- Editor: the traffic lights and the toolbar were misaligned on some systems; the toolbar is now a native unified toolbar, so macOS keeps them on one row.
 - Screen Recording permission: the Permissions pane now registers the app with macOS before opening System Settings, and offers "Quit & Reopen" because macOS only applies the permission after a restart.
 
 ### Changed
