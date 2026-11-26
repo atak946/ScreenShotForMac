@@ -1,0 +1,606 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "%@ finished": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ tamamlandı"
+          }
+        }
+      }
+    },
+    "%@: %@ (%lld/%lld)": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@: %2$@ (%3$lld/%4$lld)"
+          }
+        }
+      }
+    },
+    "After Capture": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yakalamadan Sonra"
+          }
+        }
+      }
+    },
+    "Area": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alan"
+          }
+        }
+      }
+    },
+    "Capture": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yakalama"
+          }
+        }
+      }
+    },
+    "Capture ${mode} then ${action}": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "${mode} yakala, sonra ${action}"
+          }
+        }
+      }
+    },
+    "Capture Mode": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yakalama Modu"
+          }
+        }
+      }
+    },
+    "Capture Text": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Metin Yakala"
+          }
+        }
+      }
+    },
+    "Captures an area, a window or the whole screen.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bir alanı, pencereyi veya tüm ekranı yakalar."
+          }
+        }
+      }
+    },
+    "Check for Updates…": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Güncellemeleri Denetle…"
+          }
+        }
+      }
+    },
+    "Clipboard": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pano"
+          }
+        }
+      }
+    },
+    "Close All Pins": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tüm Sabitlemeleri Kapat"
+          }
+        }
+      }
+    },
+    "Combine Images…": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Görüntüleri Birleştir…"
+          }
+        }
+      }
+    },
+    "Copied %@": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ kopyalandı"
+          }
+        }
+      }
+    },
+    "Copied %lld characters": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld karakter kopyalandı"
+          }
+        }
+      }
+    },
+    "Copied %lld codes": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld kod kopyalandı"
+          }
+        }
+      }
+    },
+    "Copied to clipboard": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Panoya kopyalandı"
+          }
+        }
+      }
+    },
+    "Copied: %@": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kopyalandı: %@"
+          }
+        }
+      }
+    },
+    "Copy to Clipboard": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Panoya Kopyala"
+          }
+        }
+      }
+    },
+    "Delay (seconds)": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gecikme (saniye)"
+          }
+        }
+      }
+    },
+    "Edit Workflows…": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "İş Akışlarını Düzenle…"
+          }
+        }
+      }
+    },
+    "Fullscreen": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tam Ekran"
+          }
+        }
+      }
+    },
+    "History": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geçmiş"
+          }
+        }
+      }
+    },
+    "History cleared": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geçmiş temizlendi"
+          }
+        }
+      }
+    },
+    "Mode": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mod"
+          }
+        }
+      }
+    },
+    "No QR or barcode found": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "QR kodu veya barkod bulunamadı"
+          }
+        }
+      }
+    },
+    "No Workflows": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "İş Akışı Yok"
+          }
+        }
+      }
+    },
+    "No capture to upload yet": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Henüz yüklenecek bir yakalama yok"
+          }
+        }
+      }
+    },
+    "No image on the clipboard": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Panoda görüntü yok"
+          }
+        }
+      }
+    },
+    "No text found": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Metin bulunamadı"
+          }
+        }
+      }
+    },
+    "Open in Editor": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Düzenleyicide Aç"
+          }
+        }
+      }
+    },
+    "Pause Recording": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaydı Duraklat"
+          }
+        }
+      }
+    },
+    "Pin to Screen": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ekrana Sabitle"
+          }
+        }
+      }
+    },
+    "Quit": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Çık"
+          }
+        }
+      }
+    },
+    "Recent Captures": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Son Yakalamalar"
+          }
+        }
+      }
+    },
+    "Record": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kayıt"
+          }
+        }
+      }
+    },
+    "Recording": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kayıt yapılıyor"
+          }
+        }
+      }
+    },
+    "Resume Recording": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kayda Devam Et"
+          }
+        }
+      }
+    },
+    "Run ${workflow}": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "${workflow} çalıştır"
+          }
+        }
+      }
+    },
+    "Run Workflow": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "İş Akışını Çalıştır"
+          }
+        }
+      }
+    },
+    "Runs one of your capture workflows.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yakalama iş akışlarınızdan birini çalıştırır."
+          }
+        }
+      }
+    },
+    "Save to File": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dosyaya Kaydet"
+          }
+        }
+      }
+    },
+    "Saved %@": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ kaydedildi"
+          }
+        }
+      }
+    },
+    "Saved %@ to %@": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@, %2$@ konumuna kaydedildi"
+          }
+        }
+      }
+    },
+    "Scrolling": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaydırmalı"
+          }
+        }
+      }
+    },
+    "Select an area of the screen and get its text.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ekranda bir alan seçin ve metnini alın."
+          }
+        }
+      }
+    },
+    "Stop Recording": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaydı Durdur"
+          }
+        }
+      }
+    },
+    "Take Screenshot": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ekran Görüntüsü Al"
+          }
+        }
+      }
+    },
+    "This ssfm:// link is not supported.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bu ssfm:// bağlantısı desteklenmiyor."
+          }
+        }
+      }
+    },
+    "Tools": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Araçlar"
+          }
+        }
+      }
+    },
+    "Upload": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yükleme"
+          }
+        }
+      }
+    },
+    "Upload Last Capture": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Son Yakalamayı Yükle"
+          }
+        }
+      }
+    },
+    "Uploaded to %@": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ hedefine yüklendi"
+          }
+        }
+      }
+    },
+    "Uploaded to %@. Link copied.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ hedefine yüklendi. Bağlantı kopyalandı."
+          }
+        }
+      }
+    },
+    "Uploading…": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yükleniyor…"
+          }
+        }
+      }
+    },
+    "Use App Setting": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uygulama Ayarını Kullan"
+          }
+        }
+      }
+    },
+    "Window": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pencere"
+          }
+        }
+      }
+    },
+    "Workflow": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "İş Akışı"
+          }
+        }
+      }
+    },
+    "Workflows": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "İş Akışları"
+          }
+        }
+      }
+    },
+    "“%@” could not be opened as an image.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "“%@” görüntü olarak açılamadı."
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
