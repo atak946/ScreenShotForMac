@@ -1,0 +1,86 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "Cancel (Esc)": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vazgeç (Esc)"
+          }
+        }
+      }
+    },
+    "Capture the selection (Return)": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Seçimi yakala (Return)"
+          }
+        }
+      }
+    },
+    "Capture ↩": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yakala ↩"
+          }
+        }
+      }
+    },
+    "No capturable windows are on screen.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ekranda yakalanabilecek pencere yok."
+          }
+        }
+      }
+    },
+    "Some displays could not be captured.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bazı ekranlar yakalanamadı."
+          }
+        }
+      }
+    },
+    "The frozen snapshot is missing.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dondurulmuş ekran görüntüsü bulunamadı."
+          }
+        }
+      }
+    },
+    "The selected area is empty.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Seçilen alan boş."
+          }
+        }
+      }
+    },
+    "The selected window is no longer available.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Seçilen pencere artık kullanılamıyor."
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
