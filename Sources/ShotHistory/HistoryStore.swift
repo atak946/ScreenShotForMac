@@ -38,7 +38,10 @@ public final class HistoryStore: HistoryStoring {
     public static var defaultRootURL: URL {
         let base = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask).first
             ?? FileManager.default.homeDirectoryForCurrentUser.appendingPathComponent("Library/Application Support")
-        return base.appendingPathComponent("ScreenShotForMac/History", isDirectory: true)
+        // Development builds (bundle id ending in ".dev") keep a separate history.
+        let isDevBuild = Bundle.main.bundleIdentifier?.hasSuffix(".dev") == true
+        let folder = isDevBuild ? "ScreenShotForMac Dev" : "ScreenShotForMac"
+        return base.appendingPathComponent("\(folder)/History", isDirectory: true)
     }
 
     public init(settings: AppSettings = .shared, rootURL: URL? = nil) {

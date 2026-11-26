@@ -29,7 +29,7 @@ targets:
     info:
       path: App/Info.plist
       properties:
-        CFBundleDisplayName: ScreenShotForMac
+        CFBundleDisplayName: $(APP_DISPLAY_NAME)
         CFBundleShortVersionString: "0.1.1"
         CFBundleVersion: "2"
         LSUIElement: true
@@ -53,8 +53,15 @@ targets:
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: app.screenshotformac.ScreenShotForMac
+        APP_DISPLAY_NAME: ScreenShotForMac
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         GENERATE_INFOPLIST_FILE: NO
+      configs:
+        # Development builds get their own identity so macOS privacy permissions (TCC),
+        # preferences and history never collide with the installed release build.
+        Debug:
+          PRODUCT_BUNDLE_IDENTIFIER: app.screenshotformac.ScreenShotForMac.dev
+          APP_DISPLAY_NAME: ScreenShotForMac Dev
     dependencies:
       - package: ShotKit
         product: ShotCore
