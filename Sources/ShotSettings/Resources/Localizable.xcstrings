@@ -211,6 +211,16 @@
         }
       }
     },
+    "Already allowed? macOS applies it after a restart.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "İzin verdin mi? macOS bunu yeniden başlatınca uygular."
+          }
+        }
+      }
+    },
     "Also copy to clipboard": {
       "localizations": {
         "tr": {
@@ -1027,6 +1037,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Hızlı Erişim"
+          }
+        }
+      }
+    },
+    "Quit & Reopen": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kapat ve Yeniden Aç"
           }
         }
       }

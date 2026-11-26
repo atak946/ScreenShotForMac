@@ -18,8 +18,16 @@ struct PermissionsSettingsTab: View {
                     color: .indigo,
                     isGranted: hasScreenRecording,
                     actionTitle: String(localized: "Open System Settings", bundle: .module),
-                    action: { SystemSettingsLink.screenRecording.open() }
+                    action: requestScreenRecording
                 )
+                if !hasScreenRecording {
+                    LabeledContent {
+                        Button(String(localized: "Quit & Reopen", bundle: .module)) { AppRelauncher.relaunch() }
+                    } label: {
+                        Text("Already allowed? macOS applies it after a restart.", bundle: .module)
+                            .foregroundStyle(.secondary)
+                    }
+                }
             } header: {
                 Text("Required", bundle: .module)
             } footer: {
@@ -64,6 +72,14 @@ struct PermissionsSettingsTab: View {
         hasScreenRecording = CGPreflightScreenCaptureAccess()
         hasAccessibility = AXIsProcessTrusted()
         microphone.refresh()
+    }
+
+    /// Registers the app in the Screen Recording list (system prompt), then opens the pane.
+    private func requestScreenRecording() {
+        if !CGRequestScreenCaptureAccess() {
+            SystemSettingsLink.screenRecording.open()
+        }
+        refresh()
     }
 
     private func requestMicrophone() {
