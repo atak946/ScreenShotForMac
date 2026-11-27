@@ -19,21 +19,32 @@ public enum WindowActivation {
             applyDockIcon()
         }
         if window.isMiniaturized { window.deminiaturize(nil) }
-        NSApp.activate()
-        window.makeKeyAndOrderFront(nil)
-        window.orderFrontRegardless()
-        // Activation of a freshly-regular app can land one runloop later, and a capture
-        // overlay may have just handed focus back to the previous app (asynchronously).
-        // Re-assert a few times so the window reliably ends up frontmost.
+        // Cooperative `NSApp.activate()` (macOS 14+) is silently refused when the frontmost
+        // app hasn't yielded (menu-bar click, or the capture overlay just handed focus back),
+        // so the window opened behind other apps. Force activation, and float the window
+        // briefly so it lands on top even if activation still loses the race.
+        let originalLevel = window.level
+        if originalLevel == .normal { window.level = .floating }
+        forceActivate(window)
         for delay in reassertDelays {
             DispatchQueue.main.asyncAfter(deadline: .now() + delay) {
                 guard window.isVisible else { return }
-                NSApp.activate()
-                window.makeKeyAndOrderFront(nil)
+                forceActivate(window)
             }
+        }
+        DispatchQueue.main.asyncAfter(deadline: .now() + floatDuration) {
+            if originalLevel == .normal, window.level == .floating { window.level = .normal }
         }
     }
 
+    private static func forceActivate(_ window: NSWindow) {
+        NSApp.unhide(nil)
+        NSApp.activate(ignoringOtherApps: true)
+        window.makeKeyAndOrderFront(nil)
+        window.orderFrontRegardless()
+    }
+
+    private static let floatDuration: TimeInterval = 0.8
     private static let reassertDelays: [TimeInterval] = [0, 0.15, 0.4]
 
     /// An LSUIElement app switched to `.regular` at runtime can get a generic Dock tile;
