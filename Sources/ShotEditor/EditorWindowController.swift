@@ -63,7 +63,7 @@ final class EditorWindowController: NSWindowController, NSWindowDelegate {
 
     func present() {
         guard let window else { return }
-        WindowActivation.present(window)
+        WindowActivation.present(window, keepOnTop: true)
         toolbarHost.updateWidth(for: window)
         if let canvas = window.initialFirstResponder {
             window.makeFirstResponder(canvas)

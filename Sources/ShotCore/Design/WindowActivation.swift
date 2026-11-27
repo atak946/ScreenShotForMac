@@ -12,7 +12,8 @@ public enum WindowActivation {
     private static var observers: [ObjectIdentifier: NSObjectProtocol] = [:]
 
     /// Shows `window` in front of every other app and tracks it until it closes.
-    public static func present(_ window: NSWindow) {
+    /// `keepOnTop` keeps it above other apps' windows (floating level) until it closes.
+    public static func present(_ window: NSWindow, keepOnTop: Bool = false) {
         track(window)
         if NSApp.activationPolicy() != .regular {
             NSApp.setActivationPolicy(.regular)
@@ -32,6 +33,7 @@ public enum WindowActivation {
                 forceActivate(window)
             }
         }
+        guard !keepOnTop else { return }
         DispatchQueue.main.asyncAfter(deadline: .now() + floatDuration) {
             if originalLevel == .normal, window.level == .floating { window.level = .normal }
         }
