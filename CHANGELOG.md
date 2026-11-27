@@ -7,6 +7,14 @@ project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.5] - 2026-11-27
+
+### Fixed
+- The editor, Settings and other windows could still open behind the active app (macOS refused the activation request); the app now forces activation so they open in front.
+
+### Changed
+- The editor window stays on top of other apps until it is closed.
+
 ## [0.1.4] - 2026-11-26
 
 ### Added

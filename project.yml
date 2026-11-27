@@ -30,8 +30,8 @@ targets:
       path: App/Info.plist
       properties:
         CFBundleDisplayName: $(APP_DISPLAY_NAME)
-        CFBundleShortVersionString: "0.1.4"
-        CFBundleVersion: "5"
+        CFBundleShortVersionString: "0.1.5"
+        CFBundleVersion: "6"
         LSUIElement: true
         SUFeedURL: https://github.com/atak946/ScreenShotForMac/releases/latest/download/appcast.xml
         SUPublicEDKey: JLeedRYBJ7E/Jc4EmVpcNLQttt8PyUJ4JT2w1ASfwng=
